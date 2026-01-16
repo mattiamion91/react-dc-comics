@@ -18,20 +18,20 @@ nav {
     font-family: 'Open Sans';
 }
 
-ul {
+header ul {
     display: flex;
     padding: 0;
     justify-content: center;
     margin: 48px;
 }
 
-ul li {
+header ul li {
     list-style-type: none;
     font-weight: bold;
     margin: 12px;
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
 }
 
@@ -54,4 +54,12 @@ main {
     padding: 0;
     justify-content: center;
     align-items: center;
+}
+
+/*footer rules*/
+
+/*top item rules*/
+
+footer .top-item {
+    background-color: blueviolet;
 }

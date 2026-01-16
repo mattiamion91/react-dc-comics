@@ -9,7 +9,6 @@ function DCBlueComponent() {
         <li><a href="#"><img src="src\assets\imgs\buy-comics-shop-locator.png" alt="buy-comics-shop-locator" />SHOP LOCATOR</a></li>
         <li><a href="#"><img src="src\assets\imgs\buy-dc-power-visa.svg" alt="buy-dc-power-visa" />DC POWER VISA</a></li>
     </ul>
-
 </div>
   )
 }
