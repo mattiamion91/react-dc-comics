@@ -1,0 +1,57 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header rules*/
+
+header {
+    padding: 12px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-family: 'Open Sans';
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin: 48px;
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/*main rules*/
+
+main {
+    font-family: 'Open Sans';
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+/*blue component rules*/
+.blue-element {
+    background-color: lightskyblue;
+}
+
+.blue-element ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
