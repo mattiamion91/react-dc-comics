@@ -98,6 +98,19 @@ main {
 
 /*top item rules*/
 
-footer .top-item {
-    background-color: blueviolet;
+footer .footer-nav {
+    background-image: url(./assets/imgs/footer-bg.jpg);
+    color: white;
+    display: flex;
+}
+
+.footer-nav ul li,
+.footer-nav h4 {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
 }
