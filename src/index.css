@@ -86,7 +86,8 @@ main {
 }
 
 .blue-element ul li {
-    flex-basis: 18%;
+    width: 100%;
+    /*flex-basis: 18%;*/
     list-style-type: none;
     font-weight: bold;
     margin: 12px;

@@ -2,7 +2,7 @@ function Navbar() {
 
     // dati per i link di navigazione
     const links = [
-        { id: 1, text: 'CHARACTERS', url: '#', current: false },
+        { id: 1, text: 'CHARACTERS', url: '/', current: false },
         { id: 2, text: 'COMICS', url: '#', current: true },
         { id: 3, text: 'MOVIES', url: '#', current: false },
         { id: 4, text: 'TV', url: '#', current: false },
@@ -19,7 +19,8 @@ function Navbar() {
     const renderElementoLista = () => {
         return links.map((linkObj) => (
             <li key={linkObj.id}>
-                <a href={linkObj.url} className={linkObj.current ? 'active' : ''}>{linkObj.text}
+                <a href={linkObj.url} className={linkObj.current && 'active'}>
+                    {linkObj.text}
                 </a>
             </li>
         ))
@@ -27,7 +28,7 @@ function Navbar() {
     return (
         <header>
             <figure>
-                <a href="#"><img src="public\dc-logo.png" alt="logo-dc" /></a>
+                <a href="#"><img src="/dc-logo.png" alt="logo-dc" /></a>
             </figure>
             <nav>
                 <ul>
