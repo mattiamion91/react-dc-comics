@@ -1,8 +1,10 @@
+import ComicsList from "./ComicList"
+
 function DCMain() {
 
   return (
     <main>
-      <h2>-- Contents goes here --</h2>
+      <ComicsList />
     </main>
   )
 }

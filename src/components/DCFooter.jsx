@@ -4,8 +4,8 @@ function DCFooter() {
     <footer>
       <div className="top-item">
         <div className="first-col">
-          <ul>
-            <li className="li-title">DC COMICS</li>
+          <h3 className="list-title">DC COMICS</h3>
+          <ul>           
             <li>Character</li>
             <li>Comics</li>
             <li>Movies</li>
@@ -36,7 +36,7 @@ function DCFooter() {
             <li>Contact Us</li>
           </ul>
         </div>
-        <div className="second-col">
+        <div className="third-col">
           <ul>
             <li className="li-title">DC</li>
             <li>Terms of Use</li>

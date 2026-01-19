@@ -44,17 +44,46 @@ main {
     padding: 50px;
 }
 
+/*regole card container*/
+
+/* regole lista prodotti */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.comic-card {
+    flex-basis: 15%;
+    padding: 20px;
+}
+
+.comic-card img{
+        display: block;
+    }
+
+
 /*blue component rules*/
+
 .blue-element {
+    font-family: 'Open Sans';
     background-color: lightskyblue;
 }
 
 .blue-element ul {
-    display: flex;
+    display: flex;   
     padding: 0;
     justify-content: center;
     align-items: center;
 }
+
+.blue-element ul li {
+    flex-basis: 18%;
+    list-style-type: none;
+    font-weight: bold;
+    margin: 12px;
+}
+
 
 /*footer rules*/
 
