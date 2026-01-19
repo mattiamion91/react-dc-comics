@@ -35,6 +35,11 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a.active,
+header ul li a:hover {
+    border-bottom: solid 2px lightblue;
+}
+
 /*main rules*/
 
 main {
@@ -54,13 +59,16 @@ main {
 }
 
 .comic-card {
-    flex-basis: 15%;
-    padding: 20px;
+    width: calc((100%/6));
+    padding: 12px;
 }
 
-.comic-card img{
-        display: block;
-    }
+.comic-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    display: block;
+}
 
 
 /*blue component rules*/
@@ -71,7 +79,7 @@ main {
 }
 
 .blue-element ul {
-    display: flex;   
+    display: flex;
     padding: 0;
     justify-content: center;
     align-items: center;
