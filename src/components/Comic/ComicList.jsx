@@ -1,4 +1,5 @@
 import comics from "../../data/comics.js"
+import ComicCard from "./ComicCard.jsx"
 
 function ComicsList() {
 
@@ -15,7 +16,11 @@ function ComicsList() {
   return (
     <section id="comics">
       <div className="card-container">
-        {renderFumettoCard()}        
+        {/*{renderFumettoCard()}*/}
+        <ComicCard />
+        <ComicCard />
+        <ComicCard />
+        <ComicCard />
       </div>
     </section>
   )  
