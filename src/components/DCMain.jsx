@@ -1,4 +1,4 @@
-import ComicsList from "./ComicList"
+import ComicsList from "./Comic/ComicList"
 
 function DCMain() {
 

@@ -1,4 +1,4 @@
-import comics from "../data/comics.js"
+import comics from "../../data/comics.js"
 
 function ComicsList() {
 
