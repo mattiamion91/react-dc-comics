@@ -1,6 +1,6 @@
 function ComicCard({thumb : src, title : alt, series : titolo}) {
 
-    //destrutturo e assegno degli alias
+    //destrutturo e assegno degli alias (per non dimenticare)
     //const {thumb : src, title : alt, series : titolo} = props;
 
     return (
